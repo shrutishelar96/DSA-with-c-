@@ -1,0 +1,27 @@
+multimap -
+
+#include <iostream>
+#include<map>
+
+using namespace std;
+
+int main()
+{
+    multimap<string,int> directory;
+    directory.insert(make_pair("ritu",234567));
+    directory.insert(make_pair("sham",98765));
+    directory.insert(make_pair("sham",97465));
+ //  directory[key]=234; not allowed in multimap must need to use .insert function
+ for(auto pair: directory){
+        cout<< "name-"<<pair.first;
+        cout<<"  Phone no-"<<pair.second<<endl;
+    }
+    
+
+    return 0;
+}
+//output-
+name-ritu  Phone no-234567
+name-sham  Phone no-98765
+name-sham  Phone no-97465
+
