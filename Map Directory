@@ -1,0 +1,24 @@
+//map directory
+
+
+#include <iostream>
+#include<map>
+using namespace std;
+
+int main()
+{
+    map<string,int>directory;
+    directory["ritu"]=84955;
+    directory["pranav"]=583054;
+    for(auto element: directory){
+        cout<<"name :"<<element.first;
+         cout<<"  phone :"<<element.second<<endl;
+        
+    }
+    return 0;
+}
+ output-
+name :pranav  phone :583054
+name :ritu  phone :84955
+
+
