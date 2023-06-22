@@ -1,0 +1,62 @@
+oops-
+
+gobal data-
+            accesibal for entire Program
+
+class-
+             -fundamental unit of oop
+             -user defined data type
+               ex- class fruit
+              class class_name{
+                 int data1;
+                  int data2
+                                },
+object-
+                variables of type class
+                ex- mango, apple
+
+                pointer access by= ->
+
+constructor-
+               -used to initialized an object
+               -this is function which is called when an object is  created
+                -same name as class name
+-types-
+                 1.default- no args passed
+                 2.parametrised- args pass
+                 3. copy-initialise an obj by existing object
+destructor-
+                - function is called when object is deleted
+                - cannot pass any parameters
+                - name -> ~( class name)
+
+encapsulation-
+                - binding of methods and variables together into a single unit call class
+
+                - data is only accessible from the class method
+                - also leads to death abstraction or hiding class call abstraction data type (ADT)
+
+
+abstraction
+                - enable us to display only he sciential information while hiding the implementation details
+
+inheritance-
+
+                a class inherits property of another class for example property from parent to child class
+                 mode of inheritance
+                 1 public - data and function they can be ascess  anywhere in code
+                 2 .protected- accessible in own class parent class and derived class
+                 3 private-
+                  * single inheritance =-A->b
+                 multiple inheritance-=A->   B ->c
+                 hierarchical inheritance-
+                 one parent many Childs
+polymorphism
+                  ability of object and methods to take different forms  
+                  function overloading
+                  define a number of functions with same function name they perform differently according to the argument passed  
+ friend function     -
+                    a non member function whch can acess private member of class 
+
+
+
