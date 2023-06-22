@@ -1,0 +1,54 @@
+# string is Anagram or not
+
+#include <iostream>
+#include<string.h>
+#include<vector>
+
+using namespace std;
+bool isAnagram(string s1,string s2){
+    vector<int> freq(26,0);
+    
+    //if length is diffrent of s1 s2 not Anagram
+    if(s1.length()!=s2.length()){
+        return false;
+    }
+     //store frequency of characterin s1,s2 
+    for(int i=0;i<s1.length();i++){
+        
+        freq[s1[i]-'a'] ++;
+        freq[s2[i]-'a']--;
+    }
+    for(int i=0;i<26;i++){
+        if(freq[i]!=0)
+        return false;
+    }
+    return true;
+}
+//return true;
+
+int main()
+{
+    string s1,s2;
+    cin>>s1>>s2;
+    if (isAnagram(s1,s2)){
+        cout<<"string is  Anagram";
+    }else{
+        cout<<"string is not Anagram";
+    }
+    
+}
+
+
+
+//output-
+
+loop
+pol
+string is not Anagram
+
+               
+    
+    
+
+   
+
