@@ -1,0 +1,19 @@
+
+recurssion-
+factorial
+#include <iostream>
+using namespace std;
+ int f(int n){
+     if(n==1)
+     return 1;
+     return n*f(n-1);
+ }
+int main() {
+    // Write C++ code here
+   int result=f(6);
+   cout<<result;
+
+    return 0;
+}
+//output- 120
+
