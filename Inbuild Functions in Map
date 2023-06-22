@@ -1,0 +1,36 @@
+inbuild function in map-
+iterators-
+                Use to traverse STL containers
+Erase()- o(logn)
+                3 ways 
+                1. M.erase (iterator)
+                2 m.erase(key)
+                3 m.erase(start-iterator, end-iterator)
+swap()-
+                Use to swap two maps
+                Two ways to swap-
+                1. m1.swap(m2)
+                2 swap(m1,m2)
+Clear ()-
+                Use to clear all the elements- M.clear()
+Empty()
+                use to check the map is empty or not
+M.empty() -     Return one if empty
+Size()-
+                to check sizes-
+                1) m.size()
+                2)max_size()-
+Functions-
+                find()->  m.find(key)- Find key element in the given list if present otherwise it returns last element of the list
+                count()- return count
+Upper_bound()-
+                 Returns an iterated to the next greater element
+                  example m.upperbound(20)- It points to the value greater than 20
+Lower_bound()-
+                 returns iterative to lower element if present ills its indicate next greater element
+
+rbegin()-
+                 return first element in reverse order
+rend()-
+                 returns last element in reverse order lat element goes to first
+
